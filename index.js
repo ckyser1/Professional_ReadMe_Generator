@@ -60,6 +60,8 @@ const questions = [
 
 ]
 
+
+
 const writeToFile = (data) => {
   fs.writeFile(`${data.name}.readme`, JSON.stringify(data, null, 2), (err) => {
     err ? console.error(err) : console.log("Success!");
@@ -72,5 +74,7 @@ const askAQuestion = (questionsToAsk, cb) => {
   .catch(console.error)
 }
 
+
+
 askAQuestion(questions, writeToFile);
-// askAQuestion([{name: "hello", message:"hello"}], console.log);
+
