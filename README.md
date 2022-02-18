@@ -1,2 +1,5 @@
 # Professional_ReadMe_Generator
-A program to populate readme files
+
+The purpose of this assignment was to create a program to populate readme files.
+
+
